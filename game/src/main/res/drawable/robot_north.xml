@@ -1,0 +1,104 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    
+    <group android:name="robot">
+        <!-- head outline -->
+        <path
+            android:fillColor="#111317"
+            android:pathData="M18,10h28v22h-28v-22z"/>
+        <path
+            android:fillColor="#2c3138"
+            android:pathData="M20,12h24v18h-24v-18z"/>
+        
+        <!-- top metal panels -->
+        <path
+            android:fillColor="#6b7787"
+            android:pathData="M22,14h20v4h-20v-4z"/>
+        <path
+            android:fillColor="#9aa7b8"
+            android:pathData="M24,18h16v4h-16v-4z"/>
+        
+        <!-- visor / sensor strip -->
+        <path
+            android:fillColor="#25d0ff"
+            android:pathData="M24,22h16v4h-16v-4z"/>
+        <path
+            android:fillColor="#b9fbff"
+            android:pathData="M26,22h2v4h-2v-4z"/>
+        <path
+            android:fillColor="#b9fbff"
+            android:pathData="M36,22h2v4h-2v-4z"/>
+        
+        <!-- mouth grill / lower head -->
+        <path
+            android:fillColor="#4c5663"
+            android:pathData="M24,26h16v2h-16v-2z"/>
+        <path
+            android:fillColor="#ffd34d"
+            android:pathData="M26,28h2v2h-2v-2z"/>
+        <path
+            android:fillColor="#ffd34d"
+            android:pathData="M30,28h4v2h-4v-2z"/>
+        <path
+            android:fillColor="#ffd34d"
+            android:pathData="M36,28h2v2h-2v-2z"/>
+        
+        <!-- side bolts -->
+        <path
+            android:fillColor="#9aa7b8"
+            android:pathData="M18,18h2v2h-2v-2z"/>
+        <path
+            android:fillColor="#9aa7b8"
+            android:pathData="M44,18h2v2h-2v-2z"/>
+        <path
+            android:fillColor="#9aa7b8"
+            android:pathData="M18,24h2v2h-2v-2z"/>
+        <path
+            android:fillColor="#9aa7b8"
+            android:pathData="M44,24h2v2h-2v-2z"/>
+        
+        <!-- shoulders seen from above -->
+        <path
+            android:fillColor="#111317"
+            android:pathData="M8,32h20v14h-20v-14z"/>
+        <path
+            android:fillColor="#111317"
+            android:pathData="M36,32h20v14h-20v-14z"/>
+        <path
+            android:fillColor="#4c5663"
+            android:pathData="M10,34h16v10h-16v-10z"/>
+        <path
+            android:fillColor="#4c5663"
+            android:pathData="M38,34h16v10h-16v-10z"/>
+        
+        <!-- shoulder caps -->
+        <path
+            android:fillColor="#6b7787"
+            android:pathData="M12,36h4v6h-4v-6z"/>
+        <path
+            android:fillColor="#6b7787"
+            android:pathData="M48,36h4v6h-4v-6z"/>
+        
+        <!-- neck / torso hint -->
+        <path
+            android:fillColor="#6b7787"
+            android:pathData="M26,32h12v6h-12v-6z"/>
+        <path
+            android:fillColor="#2c3138"
+            android:pathData="M24,38h16v8h-16v-8z"/>
+        <path
+            android:fillColor="#ffd34d"
+            android:pathData="M28,40h8v4h-8v-4z"/>
+        
+        <!-- tiny retro decals -->
+        <path
+            android:fillColor="#ff5a5a"
+            android:pathData="M14,34h6v2h-6v-2z"/>
+        <path
+            android:fillColor="#25d0ff"
+            android:pathData="M44,34h6v2h-6v-2z"/>
+    </group>
+</vector>
